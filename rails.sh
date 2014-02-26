@@ -1,4 +1,4 @@
-#!/bin/bash -l
+#!/bin/sh
 cd /rails_app
 bundle install --path ./docker/bundle
 bundle exec rake db:create
